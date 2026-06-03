@@ -15,17 +15,17 @@ export function Contact() {
             <div className="reveal">
               <p className="font-mono text-xs uppercase tracking-[0.3em] text-primary">04 · Contact</p>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-tight md:text-5xl">
-                Have something<br />in mind?
+                Let's build<br />something together.
               </h2>
               <p className="mt-5 max-w-md text-muted-foreground">
-                I take on a small number of projects each quarter. Tell me about your product
-                and timeline — I usually reply within 48 hours.
+                Have a project in mind, a role to fill, or just want to say hi? Drop a message —
+                I usually reply within 48 hours.
               </p>
               <div className="mt-8 space-y-3 text-sm">
-                <a href="mailto:hello@alexrivera.dev" className="block text-foreground hover:text-primary">
-                  hello@alexrivera.dev
+                <a href="mailto:barathi@example.com" className="block text-foreground hover:text-primary">
+                  barathi@example.com
                 </a>
-                <div className="text-muted-foreground">Lisbon · UTC+1</div>
+                <div className="text-muted-foreground">India · IST</div>
               </div>
             </div>
 
@@ -36,19 +36,16 @@ export function Contact() {
                 setSent(true);
               }}
             >
-              <div className="grid gap-4 sm:grid-cols-2">
-                <Field label="Name" name="name" placeholder="Ada Lovelace" />
-                <Field label="Email" name="email" type="email" placeholder="ada@company.com" />
-              </div>
-              <Field label="Company" name="company" placeholder="Optional" />
+              <Field label="Name" name="name" placeholder="Your name" />
+              <Field label="Email" name="email" type="email" placeholder="you@email.com" />
               <div>
                 <label className="mb-2 block font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
-                  Project
+                  Message
                 </label>
                 <textarea
                   required
                   rows={5}
-                  placeholder="What are you building? Timeline, budget, team — anything helps."
+                  placeholder="Tell me about your project, role, or just say hi."
                   className="w-full rounded-xl border border-border bg-background/60 px-4 py-3 text-sm placeholder:text-muted-foreground/70 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/30"
                 />
               </div>
@@ -88,7 +85,7 @@ function Field({
         name={name}
         type={type}
         placeholder={placeholder}
-        required={name !== "company"}
+        required
         className="w-full rounded-xl border border-border bg-background/60 px-4 py-3 text-sm placeholder:text-muted-foreground/70 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/30"
       />
     </div>

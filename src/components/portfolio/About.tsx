@@ -11,20 +11,22 @@ export function About() {
           </div>
           <div className="reveal space-y-6 text-lg leading-relaxed text-muted-foreground">
             <p>
-              I'm Barathi — a MERN stack developer passionate about building modern, responsive
-              web experiences. I love turning ideas into clean, maintainable code that just works.
+              I'm Barathi Banki — a B.Tech Information Technology student at MVGR College of
+              Engineering (CGPA 9.34), passionate about web development, problem solving, and
+              building things that actually ship.
             </p>
             <p>
-              From crafting pixel-perfect UIs in React to designing robust APIs with Node and
-              MongoDB, I enjoy <em className="text-foreground">every</em> layer of the stack — and
-              I'm always learning something new.
+              I'm currently sharpening my DSA in C++ (50+ LeetCode problems, 100-day badge),
+              exploring AI/ML through my virtual internship at EduSkills, and contributing to
+              open-source projects on GitHub. I love the <em className="text-foreground">full</em>
+              journey — from clean front-end UIs to thinking through backend architecture.
             </p>
             <div className="grid grid-cols-1 gap-4 pt-4 sm:grid-cols-2">
               {[
-                ["Role", "MERN Stack Developer"],
-                ["Focus", "Full-stack web apps"],
-                ["Based in", "India — open to remote"],
-                ["Stack", "MongoDB · Express · React · Node"],
+                ["Education", "B.Tech IT · MVGR (2022–2028)"],
+                ["CGPA", "9.34 / 10.00"],
+                ["Based in", "Vizianagaram, AP — open to remote"],
+                ["Focus", "Web Dev · DSA · AI/ML"],
               ].map(([k, v]) => (
                 <div key={k} className="rounded-xl border border-border/60 bg-surface/60 p-4">
                   <div className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground">{k}</div>

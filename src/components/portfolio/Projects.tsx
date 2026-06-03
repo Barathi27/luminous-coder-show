@@ -5,18 +5,18 @@ import p3 from "@/assets/project-3.jpg";
 const projects = [
   {
     img: p1,
-    tag: "Web App · 2025",
-    title: "Weather App",
-    desc: "A responsive weather application with real-time forecasts, search by city, and clean data visualization powered by a public weather API.",
-    stack: ["React", "JavaScript", "REST API"],
-    href: "#",
+    tag: "Open Source · 2026",
+    title: "AI Study Platform",
+    desc: "An AI-powered learning platform that generates personalized study material from user input. Built end-to-end with a Java/Python backend and a responsive HTML/CSS/JS front end, published as open source on GitHub.",
+    stack: ["Java", "Python", "HTML", "CSS", "JavaScript", "Git"],
+    href: "https://github.com/",
   },
   {
     img: p2,
-    tag: "Productivity · 2025",
-    title: "Todo App",
-    desc: "A full-stack todo manager with authentication, drag-and-drop ordering, and persistent storage — built end-to-end with the MERN stack.",
-    stack: ["MongoDB", "Express", "React", "Node"],
+    tag: "Internship · 2026",
+    title: "ML Pipelines @ EduSkills",
+    desc: "Built and evaluated machine learning pipelines covering data preprocessing, feature engineering, and model training with scikit-learn and TensorFlow, plus data analysis workflows in NumPy, Pandas, and Matplotlib.",
+    stack: ["Python", "scikit-learn", "TensorFlow", "Pandas"],
     href: "#",
   },
   {

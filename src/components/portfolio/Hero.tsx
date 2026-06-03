@@ -1,4 +1,5 @@
 import heroImg from "@/assets/hero-abstract.jpg";
+import resume from "@/assets/resume.pdf.asset.json";
 
 export function Hero() {
   return (
@@ -20,16 +21,18 @@ export function Hero() {
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.02] tracking-tight md:text-7xl">
             Hi, I'm <span className="text-gradient">Barathi</span>
             <br />
-            MERN Stack Developer.
+            Aspiring Full Stack Developer.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            I build fast, responsive, and scalable web applications using MongoDB, Express,
-            React, and Node.js — turning ideas into clean, production-ready products.
+            B.Tech Information Technology student at MVGR College of Engineering (CGPA 9.34).
+            Passionate about web development, DSA in C++, and shipping real-world projects.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
-              href="/resume.pdf"
+              href={resume.url}
               download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
             >
               Download Resume
@@ -44,9 +47,9 @@ export function Hero() {
           </div>
           <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border/60 pt-8">
             {[
-              ["3+", "Years coding"],
-              ["15+", "Projects built"],
-              ["8", "Core technologies"],
+              ["9.34", "Current CGPA"],
+              ["50+", "LeetCode solved"],
+              ["100", "Day badge"],
             ].map(([k, v]) => (
               <div key={v}>
                 <dt className="font-display text-2xl font-semibold">{k}</dt>
@@ -70,7 +73,7 @@ export function Hero() {
             <div className="absolute -left-6 bottom-8 rounded-2xl border border-border/60 bg-surface-elevated/90 p-4 backdrop-blur shadow-card">
               <div className="font-mono text-[11px] text-muted-foreground">~/now</div>
               <div className="mt-1 text-sm">
-                Crafting full-stack apps with the <span className="text-primary">MERN</span> stack.
+                AI &amp; ML Intern at <span className="text-primary">EduSkills</span> · Vizianagaram, AP
               </div>
             </div>
           </div>
@@ -79,7 +82,7 @@ export function Hero() {
       <div className="mt-20 overflow-hidden border-y border-border/60 py-5">
         <div className="flex w-max animate-marquee items-center gap-12 font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">
           {Array.from({ length: 2 }).flatMap((_, i) =>
-            ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB", "SQL", "Java"].map((t) => (
+            ["C++", "Python", "HTML5", "CSS3", "JavaScript", "DSA", "Git", "GitHub", "OOP", "DBMS"].map((t) => (
               <span key={`${i}-${t}`} className="flex items-center gap-12">
                 {t}
                 <span className="h-1 w-1 rounded-full bg-primary" />

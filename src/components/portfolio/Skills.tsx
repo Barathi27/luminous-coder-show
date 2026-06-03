@@ -1,19 +1,19 @@
 const groups = [
   {
-    title: "Languages",
-    items: ["JavaScript", "Java", "SQL"],
+    title: "Core Languages",
+    items: ["C++", "Python", "Java", "JavaScript"],
   },
   {
-    title: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "React"],
+    title: "Web Technologies",
+    items: ["HTML5", "CSS3", "JavaScript", "REST APIs"],
   },
   {
-    title: "Backend & Data",
-    items: ["Node.js", "Express", "MongoDB", "SQL"],
+    title: "CS Fundamentals",
+    items: ["DSA (C++)", "OOP", "DBMS", "Operating Systems"],
   },
   {
-    title: "Tools",
-    items: ["Git", "GitHub", "VS Code", "Postman", "Vercel"],
+    title: "Tools & Platforms",
+    items: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "Maven"],
   },
 ];
 

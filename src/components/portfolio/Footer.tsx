@@ -17,8 +17,8 @@ export function Footer() {
           {[
             ["GitHub", "#"],
             ["LinkedIn", "#"],
-            ["Twitter", "#"],
-            ["Email", "mailto:barathi@example.com"],
+            ["LeetCode", "#"],
+            ["Email", "mailto:barathibanki07@gmail.com"],
           ].map(([l, h]) => (
             <a key={l} href={h} className="hover:text-foreground">
               {l}

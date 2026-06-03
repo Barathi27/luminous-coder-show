@@ -22,10 +22,13 @@ export function Contact() {
                 I usually reply within 48 hours.
               </p>
               <div className="mt-8 space-y-3 text-sm">
-                <a href="mailto:barathi@example.com" className="block text-foreground hover:text-primary">
-                  barathi@example.com
+                <a href="mailto:barathibanki07@gmail.com" className="block text-foreground hover:text-primary">
+                  barathibanki07@gmail.com
                 </a>
-                <div className="text-muted-foreground">India · IST</div>
+                <a href="tel:+919014200676" className="block text-muted-foreground hover:text-foreground">
+                  +91 90142 00676
+                </a>
+                <div className="text-muted-foreground">Vizianagaram, AP · IST</div>
               </div>
             </div>
 

@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Barathi — MERN Stack Developer Portfolio" },
       { name: "description", content: "Barathi is a MERN stack developer building fast, responsive web applications with MongoDB, Express, React, and Node.js." },
       { name: "author", content: "Barathi" },
-      { property: "og:title", content: "Barathi — MERN Stack Developer" },
-      { property: "og:description", content: "MERN stack developer building modern, responsive web applications." },
+      { property: "og:title", content: "Barathi — MERN Stack Developer Portfolio" },
+      { property: "og:description", content: "Barathi is a MERN stack developer building fast, responsive web applications with MongoDB, Express, React, and Node.js." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Barathi — MERN Stack Developer Portfolio" },
+      { name: "twitter:description", content: "Barathi is a MERN stack developer building fast, responsive web applications with MongoDB, Express, React, and Node.js." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a53490d0-ba69-45cc-9830-1d973ad74dc9/id-preview-eee83753--93bc1870-6c47-4518-a6c3-6dbfe0c18df2.lovable.app-1780463797952.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a53490d0-ba69-45cc-9830-1d973ad74dc9/id-preview-eee83753--93bc1870-6c47-4518-a6c3-6dbfe0c18df2.lovable.app-1780463797952.png" },
     ],
     links: [
       {

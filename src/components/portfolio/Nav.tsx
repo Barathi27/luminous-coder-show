@@ -29,9 +29,9 @@ export function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-2 font-display text-base font-semibold tracking-tight">
           <span className="grid h-8 w-8 place-items-center rounded-md bg-primary text-primary-foreground">
-            <span className="font-mono text-sm">ar</span>
+            <span className="font-mono text-sm">b.</span>
           </span>
-          <span>Alex Rivera</span>
+          <span>Barathi</span>
         </a>
         <nav className="hidden items-center gap-1 rounded-full border border-border/60 bg-surface/60 px-2 py-1 backdrop-blur md:flex">
           {links.map((l) => (
